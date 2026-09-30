@@ -1,0 +1,76 @@
+/* ============================================
+   Ian Talo - Shared Custom Styles
+   ============================================ */
+
+/* ---- Tooltip for nav links (Open Source) ---- */
+.tooltip {
+  position: relative;
+  cursor: not-allowed;
+}
+
+.tooltip::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px);
+  background-color: #1c1f29;
+  color: #dfe2ef;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+  z-index: 100;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-6px);
+  border: 5px solid transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+  z-index: 100;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.tooltip:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-4px);
+}
+
+/* ---- Project card filter transitions ---- */
+.project-card {
+  transition: opacity 250ms ease, transform 250ms ease;
+}
+
+/* ---- Active nav link state (for JS to apply consistently) ---- */
+.nav-link-active {
+  background-color: #262a34;
+  color: #00f5a0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+  border: 1px solid rgba(59, 74, 64, 0.6);
+  border-radius: 8px;
+}
+
+/* ---- Copy button feedback ---- */
+.copy-btn-success {
+  background-color: #00f5a0 !important;
+  color: #002111 !important;
+}

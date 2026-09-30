@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="web_standard" name="shell-type">
+<meta name="description" content="Ian Ochieng Talo - Background, engineering philosophy, open source trajectory, and direct contact.">
+<title>About &amp; Open Source - Ian Talo</title>
+<link rel="icon" href="assets/favicon.ico" type="image/svg+xml">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-low":"#181b25","surface-container":"#1c1f29","primary-fixed":"#50ffaf","on-background":"#dfe2ef","background":"#0f131c","primary":"#cdffde","inverse-primary":"#006c44","tertiary":"#fff1e4","error":"#ffb4ab","surface-dim":"#0f131c","inverse-on-surface":"#2c303a","secondary-container":"#03b5d3","on-primary-container":"#006b43","tertiary-container":"#ffce95","surface-variant":"#31353f","on-secondary-fixed":"#001f26","primary-fixed-dim":"#00e293","on-secondary":"#003640","on-error-container":"#ffdad6","on-primary-fixed-variant":"#005232","surface-container-high":"#262a34","on-tertiary-container":"#835200","on-secondary-container":"#00424e","on-surface":"#dfe2ef","on-primary-fixed":"#002111","tertiary-fixed-dim":"#ffb95f","surface":"#0f131c","outline":"#849588","surface-container-lowest":"#0a0e17","outline-variant":"#3b4a40","on-tertiary-fixed":"#2a1700","on-tertiary-fixed-variant":"#653e00","surface-bright":"#353943","on-surface-variant":"#b9cbbd","secondary-fixed":"#acedff","surface-container-highest":"#31353f","on-primary":"#003921","secondary-fixed-dim":"#4cd7f6","on-tertiary":"#472a00","secondary":"#4cd7f6","tertiary-fixed":"#ffddb8","error-container":"#93000a","on-error":"#690005","inverse-surface":"#dfe2ef","primary-container":"#00f5a0","on-secondary-fixed-variant":"#004e5c","surface-tint":"#00e293"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xl":"2.5rem","margin-mobile":"1.25rem","space-xs":"0.25rem","gutter":"1.5rem","space-md":"1rem","space-lg":"1.5rem","space-sm":"0.5rem","gutter-mobile":"1rem","margin":"3rem"},"fontFamily":{"headline-md":["Geist"],"label-code":["JetBrains Mono"],"body-md":["Inter"],"code-block":["JetBrains Mono"],"label-caps":["JetBrains Mono"],"headline-lg":["Geist"],"body-sm":["Inter"],"headline-sm":["JetBrains Mono"],"display-hero":["Geist"],"display-hero-mobile":["Geist"],"headline-lg-mobile":["Geist"],"body-lg":["Inter"]},"fontSize":{"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-code":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"code-block":["14px",{"lineHeight":"22px","fontWeight":"400"}],"label-caps":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.03em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"500"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.04em","fontWeight":"700"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}]}}}};</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-surface-container-lowest font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-fixed">
+
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md border-b border-outline-variant/40">
+  <div class="h-16 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md">
+    <div class="flex items-center gap-space-md min-w-0">
+      <a class="flex items-center gap-space-xs font-headline-sm text-headline-sm text-primary-container hover:text-primary transition-colors" href="index.html">
+        <span class="material-symbols-outlined text-[18px] text-primary-container">terminal</span>
+        <span>ian.talo</span>
+        <span class="text-on-surface-variant font-label-code text-label-code">/ dev</span>
+      </a>
+      <div class="hidden xl:flex items-center gap-space-xs pl-space-sm pr-space-md py-space-xs rounded-full bg-surface-container-low border border-outline-variant/50">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-primary-container"></span>
+        </span>
+        <span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Available for backend &amp; OSS roles</span>
+      </div>
+    </div>
+
+    <nav class="hidden lg:flex items-center gap-space-xs" id="desktop-nav">
+      <a class="nav-link px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="index" href="index.html">Overview</a>
+      <a class="nav-link px-space-md py-space-xs transition-all bg-surface-container-high text-primary-container font-headline-sm rounded-lg border border-outline-variant/60" data-path="about" href="about.html">About</a>
+      <a class="nav-link px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="tech-stack" href="tech-stack.html">Tech Stack</a>
+      <a class="nav-link px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="projects" href="projects.html">Projects</a>
+      <a class="nav-link px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all tooltip" data-path="open-source" data-tip="Coming soon" href="#">Open Source</a>
+      <a class="nav-link px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="contact" href="#contact-footer">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-space-sm">
+      <a aria-label="GitHub Profile" class="hidden sm:inline-flex p-space-xs rounded-lg text-on-surface-variant hover:text-primary-container hover:bg-surface-container border border-transparent hover:border-outline-variant/60 transition-all" href="https://github.com/talooyweka-source" rel="noreferrer" target="_blank">
+        <span class="material-symbols-outlined text-[20px]">code</span>
+      </a>
+      <a class="hidden sm:inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container border border-outline-variant/80 hover:border-primary-container text-on-surface hover:text-primary-container font-label-code text-label-code transition-all shadow-[0_0_12px_-4px_rgba(0,245,160,0.1)]" href="assets/resume.pdf" target="_blank">
+        <span class="material-symbols-outlined text-[16px]">description</span>
+        <span>Resume</span>
+        <span class="text-primary-container text-[12px]">→</span>
+      </a>
+      <button aria-label="Toggle menu" class="lg:hidden p-space-xs rounded-lg text-on-surface-variant hover:text-primary-container hover:bg-surface-container border border-transparent hover:border-outline-variant/60 transition-all" id="mobile-menu-btn">
+        <span class="material-symbols-outlined text-[22px]">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="hidden lg:hidden border-t border-outline-variant/40 bg-surface-container-lowest/95 backdrop-blur-md" id="mobile-menu">
+    <nav class="flex flex-col px-margin-mobile py-space-md gap-space-xs">
+      <a class="px-space-md py-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-body-sm transition-all" href="index.html">Overview</a>
+      <a class="px-space-md py-space-sm rounded-lg bg-surface-container-high text-primary-container font-headline-sm" href="about.html">About</a>
+      <a class="px-space-md py-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-body-sm transition-all" href="tech-stack.html">Tech Stack</a>
+      <a class="px-space-md py-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-body-sm transition-all" href="projects.html">Projects</a>
+      <span class="px-space-md py-space-sm rounded-lg text-on-surface-variant/60 font-body-sm flex items-center justify-between">Open Source <span class="font-label-caps text-label-caps">Coming soon</span></span>
+      <a class="px-space-md py-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-body-sm transition-all" href="#contact-footer">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="w-full pt-16 bg-surface-container-lowest min-h-screen">
+<div class="flex flex-col w-full">
+
+<div class="max-w-7xl mx-auto w-full px-margin-mobile lg:px-margin py-space-xl">
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+
+    <div class="lg:col-span-7 flex flex-col gap-space-xl">
+
+      <div class="flex flex-col gap-space-xs">
+        <div class="flex items-center gap-space-xs text-primary-container font-label-code text-label-code">
+          <span class="material-symbols-outlined text-[16px]">person</span>
+          <span>BACKGROUND &amp; PHILOSOPHY</span>
+        </div>
+        <h1 class="font-display-hero text-headline-lg lg:text-display-hero text-on-surface font-bold tracking-tight">About &amp; Open Source Work</h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-xs">Software engineer grounded in zero-dependency algorithmic foundations, high-throughput Go services, and decentralized protocol primitives.</p>
+      </div>
+
+      <div class="flex flex-col gap-space-lg">
+
+        <div class="bg-surface-container p-space-lg rounded-xl shadow-md transition-all hover:bg-surface-container-high relative overflow-hidden group">
+          <div class="absolute top-0 left-0 w-1 h-full bg-primary-container"></div>
+          <div class="flex items-center justify-between mb-space-sm">
+            <span class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center gap-space-xs">
+              <span class="material-symbols-outlined text-[18px] text-primary-container">school</span>
+              Zone 01 Systems Foundation
+            </span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container-lowest px-space-sm py-1 rounded">Peer-to-Peer</span>
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant">Forged within Zone 01's deep, collaborative peer-to-peer engineering crucible. Built software architectures without relying on pre-packaged third-party libraries, cultivating deep mastery over memory allocation, pointer semantics, clean modular boundaries, and test-driven invariant verification.</p>
+        </div>
+
+        <div class="bg-surface-container p-space-lg rounded-xl shadow-md transition-all hover:bg-surface-container-high relative overflow-hidden group">
+          <div class="absolute top-0 left-0 w-1 h-full bg-secondary"></div>
+          <div class="flex items-center justify-between mb-space-sm">
+            <span class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center gap-space-xs">
+              <span class="material-symbols-outlined text-[18px] text-secondary">token</span>
+              Btrust &amp; Open Source Contributions
+            </span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container-lowest px-space-sm py-1 rounded">Decentralized</span>
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant">Active contributor in the Btrust Builders cohort. Studying peer-to-peer gossip mechanics, UTXO validation pipelines, and cryptographic signatures. Actively engineering censorship-resistant tooling and Nostr message routing infrastructure with unconditional commitment to public good open source software.</p>
+        </div>
+
+        <div class="bg-surface-container p-space-lg rounded-xl shadow-md transition-all hover:bg-surface-container-high relative overflow-hidden group">
+          <div class="absolute top-0 left-0 w-1 h-full bg-tertiary-container"></div>
+          <div class="flex items-center justify-between mb-space-sm">
+            <span class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center gap-space-xs">
+              <span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim">memory</span>
+              Backend &amp; Linux Systems Engineering
+            </span>
+            <span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container-lowest px-space-sm py-1 rounded">Infrastructure</span>
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant">Operating natively within POSIX terminal environments. Specializing in high-concurrency Go microservices, strict domain modeling, reproducible multi-stage container builds, and shell-driven automated deployment flows that maximize system throughput and stability.</p>
+        </div>
+
+      </div>
+
+      <div class="bg-surface-container-low p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+        <div class="flex items-center justify-between">
+          <h3 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+            <span class="material-symbols-outlined text-primary-container text-[18px]">verified</span>
+            Core Disciplines Checklist
+          </h3>
+          <span class="font-label-code text-label-code text-on-surface-variant">5/5 VERIFIED</span>
+        </div>
+        <div class="grid grid-cols-1 gap-space-sm pt-space-xs">
+
+          <div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container transition-colors hover:bg-surface-container-high">
+            <div class="w-5 h-5 rounded-full bg-primary-container/10 flex items-center justify-center shrink-0 mt-0.5 text-primary-container">
+              <span class="material-symbols-outlined text-[16px]">check_circle</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-body-md text-on-surface font-semibold">Backend Engineering (Go &amp; Python)</span>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">High-concurrency daemons, deterministic serialization, explicit error propagation, REST/RPC interfaces.</span>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container transition-colors hover:bg-surface-container-high">
+            <div class="w-5 h-5 rounded-full bg-primary-container/10 flex items-center justify-center shrink-0 mt-0.5 text-primary-container">
+              <span class="material-symbols-outlined text-[16px]">check_circle</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-body-md text-on-surface font-semibold">Containerization &amp; Multi-Stage Docker</span>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Scratch/Alpine minimal attack-surface runtime artifacts, layer caching optimization, stateless deployment.</span>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container transition-colors hover:bg-surface-container-high">
+            <div class="w-5 h-5 rounded-full bg-primary-container/10 flex items-center justify-center shrink-0 mt-0.5 text-primary-container">
+              <span class="material-symbols-outlined text-[16px]">check_circle</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-body-md text-on-surface font-semibold">Rigorous Git Hygiene &amp; Peer Reviews</span>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Atomic semantic commits, linear git history rebase discipline, comprehensive PR spec documentation.</span>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container transition-colors hover:bg-surface-container-high">
+            <div class="w-5 h-5 rounded-full bg-primary-container/10 flex items-center justify-center shrink-0 mt-0.5 text-primary-container">
+              <span class="material-symbols-outlined text-[16px]">check_circle</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-body-md text-on-surface font-semibold">Linux Kernel Internals &amp; Terminal Tooling</span>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">POSIX scripting, systemd lifecycle, eBPF &amp; socket debugging, strace/lsof diagnostics.</span>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-space-sm p-space-sm rounded-lg bg-surface-container transition-colors hover:bg-surface-container-high">
+            <div class="w-5 h-5 rounded-full bg-primary-container/10 flex items-center justify-center shrink-0 mt-0.5 text-primary-container">
+              <span class="material-symbols-outlined text-[16px]">check_circle</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-body-md text-on-surface font-semibold">Decentralized Protocols &amp; Consensus Mechanics</span>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">Nostr WebSocket relays (NIPs), Bitcoin script verification, cryptographic state validation.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="lg:col-span-5 flex flex-col gap-space-xl">
+
+      <div class="p-space-lg rounded-xl bg-surface-container shadow-md flex flex-col gap-space-xs border border-outline-variant/30">
+        <div class="flex items-center gap-space-xs text-primary-container font-label-code text-label-code">
+          <span class="material-symbols-outlined text-[16px]">hub</span>
+          <span>OPEN SOURCE FOCUS</span>
+        </div>
+        <h2 class="font-headline-md text-headline-md text-on-surface font-bold">Public Good Engineering &amp; Decentralization</h2>
+        <p class="font-body-sm text-body-sm text-on-surface-variant">Championing sovereign compute, permissionless gossip protocols, and verifiable execution through public, un-gated source repositories.</p>
+      </div>
+
+      <div class="flex flex-col gap-space-md">
+        <div class="flex items-center justify-between">
+          <span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Technical Focus &amp; Research</span>
+        </div>
+
+        <div class="bg-surface-container p-space-md rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-space-xs">
+              <span class="w-2 h-2 rounded-full bg-primary-container"></span>
+              <span class="font-headline-sm text-headline-sm text-on-surface">DevOps &amp; Infrastructure</span>
+            </div>
+            <span class="font-label-code text-label-code text-primary-container">Orchestration</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">Multi-stage reproducible build pipelines, GitHub Actions CI/CD matrix strategies, Docker swarm orchestration, automated image scanning.</p>
+        </div>
+
+        <div class="bg-surface-container p-space-md rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-space-xs">
+              <span class="w-2 h-2 rounded-full bg-secondary"></span>
+              <span class="font-headline-sm text-headline-sm text-on-surface">Go Runtime Internals</span>
+            </div>
+            <span class="font-label-code text-label-code text-secondary">Profiling</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">Concurrency patterns via channels and goroutine pools, pprof CPU/memory heap audits, benchmark testing, and garbage collection optimization.</p>
+        </div>
+
+        <div class="bg-surface-container p-space-md rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col gap-space-xs">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-space-xs">
+              <span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+              <span class="font-headline-sm text-headline-sm text-on-surface">Bitcoin &amp; Nostr Protocols</span>
+            </div>
+            <span class="font-label-code text-label-code text-tertiary-fixed-dim">Consensus</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">Bitcoin consensus mechanics, payment channel lifecycle on Lightning, and high-performance Nostr relay event filtering over raw WebSockets.</p>
+        </div>
+      </div>
+
+      <div class="bg-surface-container p-space-lg rounded-xl shadow-xl flex flex-col gap-space-md border border-outline-variant/30">
+        <div class="flex flex-col gap-space-xs">
+          <div class="flex items-center gap-space-xs text-primary-container font-label-code text-label-code">
+            <span class="material-symbols-outlined text-[16px]">mail</span>
+            <span>GET IN TOUCH</span>
+          </div>
+          <h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Contact &amp; Collaboration</h3>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">Open for backend engineering roles, open-source protocol collaborations, and technical discourse around Linux systems and Go daemons.</p>
+        </div>
+
+        <div class="flex flex-col gap-space-xs font-label-code text-label-code">
+          <div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-high transition-colors hover:bg-surface-bright group">
+            <div class="flex items-center gap-space-sm min-w-0">
+              <span class="material-symbols-outlined text-[18px] text-primary-container shrink-0">mail</span>
+              <span class="text-on-surface truncate">talooyweka@gmail.com</span>
+            </div>
+            <button class="px-space-sm py-1 rounded bg-surface-container-lowest text-primary-container hover:bg-primary-container hover:text-on-primary-fixed transition-all text-[11px] font-semibold flex items-center gap-1 shrink-0" id="copy-email-btn" data-email="talooyweka@gmail.com" title="Copy Email to Clipboard">
+              <span class="copy-label">COPY</span>
+              <span class="material-symbols-outlined text-[12px]">content_copy</span>
+            </button>
+          </div>
+          <a class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-high transition-colors hover:bg-surface-bright group" href="https://github.com/talooyweka-source" rel="noreferrer" target="_blank">
+            <div class="flex items-center gap-space-sm min-w-0">
+              <span class="material-symbols-outlined text-[18px] text-secondary shrink-0">code</span>
+              <span class="text-on-surface truncate">github.com/talooyweka-source</span>
+            </div>
+            <span class="text-on-surface-variant group-hover:text-primary-container text-body-md transition-colors shrink-0">↗</span>
+          </a>
+          <a class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-high transition-colors hover:bg-surface-bright group" href="https://www.linkedin.com/in/ian-talo" rel="noreferrer" target="_blank">
+            <div class="flex items-center gap-space-sm min-w-0">
+              <span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim shrink-0">badge</span>
+              <span class="text-on-surface truncate">linkedin.com/in/ian-talo</span>
+            </div>
+            <span class="text-on-surface-variant group-hover:text-primary-container text-body-md transition-colors shrink-0">↗</span>
+          </a>
+          <a class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-high transition-colors hover:bg-surface-bright group" href="https://x.com/IanTaloOc" rel="noreferrer" target="_blank">
+            <div class="flex items-center gap-space-sm min-w-0">
+              <span class="material-symbols-outlined text-[18px] text-on-surface-variant shrink-0">alternate_email</span>
+              <span class="text-on-surface truncate">x.com/IanTaloOc</span>
+            </div>
+            <span class="text-on-surface-variant group-hover:text-primary-container text-body-md transition-colors shrink-0">↗</span>
+          </a>
+        </div>
+
+        <div class="pt-space-xs">
+          <a class="w-full flex items-center justify-center gap-space-sm px-space-md py-space-sm rounded bg-primary-container text-on-primary-fixed font-label-code text-label-code font-semibold hover:bg-secondary transition-all shadow-[0_0_16px_rgba(0,245,160,0.2)]" href="mailto:talooyweka@gmail.com?subject=Engineering%20Inquiry%20via%20ian.talo%2Fdev">
+            <span class="material-symbols-outlined text-[18px]">forward_to_inbox</span>
+            <span>Send Email</span>
+            <span class="font-headline-sm">→</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+</main>
+
+<footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-space-xl" id="contact-footer">
+  <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin flex flex-col md:flex-row items-center justify-between gap-space-lg">
+    <div class="flex flex-col items-center md:items-start gap-space-xs">
+      <div class="flex items-center gap-space-sm font-headline-sm text-body-md text-on-surface font-semibold">
+        <span>Ian Ochieng Talo</span>
+        <span class="text-outline-variant">&mdash;</span>
+        <span class="text-on-surface-variant font-body-sm font-normal">Systems &amp; Protocol Engineer</span>
+      </div>
+      <p class="font-body-sm text-body-sm text-on-surface-variant">Zone 01 Cohort &bull; Open Source Contributor @ Btrust &bull; Bitcoin Core &amp; Go Protocols</p>
+    </div>
+    <div class="font-label-code text-label-code text-on-surface-variant">&copy; 2025 ian.talo / dev. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+</body>
+</html>
